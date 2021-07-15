@@ -2204,7 +2204,7 @@ select {
 }
 
 .box-active-blue {
-    height: 35px;
+    height: 40px;
     width: 100%;
     background-color: #c7e0f9c9;
     border: none;
@@ -2212,7 +2212,8 @@ select {
 }
 
 .subbox-active {
-    height: 35px;
+    height: 40px;
+    margin-right: 45px;
 }
 
 .button-order-active {
@@ -2225,4 +2226,75 @@ select {
     width: 200px;
     padding-top: 2px;
     padding-bottom: 2px;
+}
+
+.width-40 {
+    width: 40px;
+}
+
+.margin-horizontal-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.margin-navbar-list {
+    margin-left: 70px;
+    margin-right: 130px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.modal-procesar-novedad {
+    width: 900px !important;
+    padding: 0px !important;
+}
+
+.drop-list-products-procesar-domicile {
+    height: 130px;
+    width: 100%;
+    box-shadow: inset -2px 6px 8px -5px rgba(71, 71, 71, 0.25);
+    overflow: auto;
+    -ms-overflow-style: none;
+}
+
+.drop-list-products-procesar-domicile::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.drop-list-products-procesar-domicile::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+.drop-list-products-procesar-domicile::-webkit-scrollbar-thumb {
+    background: #afafaf;
+    border: 8px none #ffffff;
+    border-radius: 50px;
+}
+
+.drop-list-products-procesar-domicile::-webkit-scrollbar-thumb:hover {
+    background: #afafaf;
+}
+
+.drop-list-products-procesar-domicile::-webkit-scrollbar-thumb:active {
+    background: #afafaf;
+}
+
+.drop-list-products-procesar-domicile::-webkit-scrollbar-track {
+    background: #e6e6e6;
+    border: 8px none #ffffff;
+    border-radius: 50px;
+}
+
+.drop-list-products-procesar-domicile::-webkit-scrollbar-track:hover {
+    background: #e6e6e6;
+}
+
+.drop-list-products-procesar-domicile::-webkit-scrollbar-track:active {
+    background: #e6e6e6;
+}
+
+.drop-list-products-procesar-domicile::-webkit-scrollbar-corner {
+    background: transparent;
 }
