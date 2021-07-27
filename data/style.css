@@ -2374,3 +2374,26 @@ select {
 .width-20 {
     width: 20px;
 }
+
+.box-active-blue-sin-novedad {
+    height: 40px;
+    width: 100%;
+    background-color: #c7e0f9c9;
+    border: none;
+    cursor: pointer;
+}
+
+.box-active-blue-sin-novedad:hover {
+    background-color: #9bccfdc9;
+}
+
+.margin-navbar-list-sin-novedad {
+    margin-left: 50px;
+    margin-right: 130px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.width-135 {
+    width: 135px;
+}
