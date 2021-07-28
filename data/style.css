@@ -2397,3 +2397,21 @@ select {
 .width-135 {
     width: 135px;
 }
+
+.modal-detalles {
+    width: 700px !important;
+    height: 520px;
+    padding-top: 30px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border-radius: 10px !important;
+}
+
+.height-40 {
+    height: 40px;
+}
+
+.padding-horizontal-70 {
+    padding-left: 70px;
+    padding-right: 70px;
+}
