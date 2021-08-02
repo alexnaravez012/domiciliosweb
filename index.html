@@ -1512,7 +1512,7 @@
         </div>
     </div>
     <!-- Procesados / sin novedad -->
-    <div style="display: none">
+    <div style="display: inline">
         <div class="main-container-domicile">
             <div class="uk-flex uk-flex-middle navbar-search-products-domicile" style="z-index: 2000; position: relative;">
                 <div class="uk-flex uk-flex-center uk-flex-middle" style="padding-left: 30px; ">
@@ -2099,7 +2099,7 @@
                     <div style="margin-left: 10px;">
                         <button class="button-search-actualice-domicile" style="height: 23px; color: #56a1fd;">Consultar</button>
                     </div>
-                    <div class="padding-horizontal-20">
+                    <div class="padding-horizontal-20" style="margin-left: 10px;">
                         <h6 class="uk-margin-remove font-size-11">Seleccione opción</h6>
                         <div class="select-create-product-domicile " style="width: 100px;">
                             <select>
@@ -2456,20 +2456,25 @@
                     <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Cancelados</h6>
                 </div>
             </div>
-            <div style="margin-left: 40px; margin-top: 5px;">
-                <div class="uk-flex uk-flex-middle">
-                    <div style="margin-top: 15px; margin-left: 30px; margin-bottom: 2px;">
-                        <h6 class="uk-margin-remove font-size-11">Fecha inicial</h6>
-                        <input class="input-register-user-domicile font-size-12" type="date" style="width: 145px;">
-                    </div>
-                    <div style="margin-top: 15px; margin-left: 26px; margin-bottom: 2px;">
-                        <h6 class="uk-margin-remove font-size-11" style="padding-left: 40px;">Fecha Final</h6>
-                        <input class="input-register-user-domicile font-size-12" type="date" style="width: 145px;">
-                    </div>
-                    <div style="margin-left: 35px;">
-                        <button class="button-search-actualice-domicile" style="height: 23px; color: #56a1fd;">Consultar</button>
+            <div>
+                <div class="uk-flex uk-flex-middle" style="margin-top: 5px; margin-left: 23px;">
+                    <div>
+                        <div class="uk-flex uk-flex-middle navbar-search-products-re-domicile" style="margin-left: 10px;">
+                            <div style="margin-top: 17px; margin-left: 35px; margin-bottom: 2px;">
+                                <h6 class="uk-margin-remove font-size-11">Fecha inicial</h6>
+                                <input class="input-register-user-domicile font-size-12" type="date" style="width: 120px;">
+                            </div>
+                            <div style="margin-top: 17px; margin-left: 15px; margin-bottom: 2px;">
+                                <h6 class="uk-margin-remove font-size-11">Fecha Final</h6>
+                                <input class="input-register-user-domicile font-size-12" type="date" style="width: 120px;">
+                            </div>
+                            <div>
+                                <button class="button-search-actualice-domicile" style="margin-top: 20px; margin-left: 8px ; height: 20px; width: 120px; color: #65a6f7;">Consultar</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="box-shadow-down-domicile" style="height: 5px;"></div>
             </div>
             <div class="box-shadow-down-domicile" style="height: 5px;"></div>
             <div style="margin-top: 10px;">
@@ -3300,7 +3305,7 @@
         </div>
     </div>
     <!-- Finalizados / sin novedad -->
-    <div style="display: inline">
+    <div style="display: none">
         <div class="main-container-domicile">
             <div class="uk-flex uk-flex-middle navbar-search-products-domicile" style="z-index: 2000; position: relative;">
                 <div class="uk-flex uk-flex-center uk-flex-middle" style="padding-left: 30px; ">
@@ -3555,207 +3560,501 @@
             </div>
         </div>
     </div>
-    <!-- pedidos reorden / reorden por consumo -->
-    <div style="display: none;">
+    <!-- Calificados -->
+    <div style="display: none">
         <div class="main-container-domicile">
-            <div class="uk-flex uk-flex-middle navbar-search-products-domicile" style="z-index: 2000; position: relative;">
-                <div class="uk-flex uk-flex-center uk-flex-middle" style="padding-left: 40px; ">
-                    <h4 class="uk-margin-remove uk-text-bold">Pedidos</h4>
+            <div class="uk-flex uk-flex-middle navbar-search-products-domicile">
+                <div class="uk-flex uk-flex-center uk-flex-middle" style="padding-left: 20px; ">
+                    <h4 class="uk-margin-remove uk-text-bold">Domicilios</h4>
                 </div>
                 <div>
-                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer uk-text-center" style="padding-left: 100px;">Ver mis pedidos</h6>
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer uk-text-center" style="padding-left: 60px;">Registrar pedido</h6>
+                </div>
+                <div style="margin-left: 50px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Creados</h6>
+                </div>
+                <div style="margin-left: 70px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Procesados</h6>
+                </div>
+                <div style="margin-left: 40px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Facturados</h6>
                 </div>
                 <div style="margin-left: 60px;">
-                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Generar pedido</h6>
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">En Camino</h6>
                 </div>
                 <div style="margin-left: 60px;">
-                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Planilla</h6>
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Entregados</h6>
                 </div>
-                <div class="button-trademark-domicile uk-flex uk-flex-middle uk-flex-center" style="margin-left: 45px; width: 180px;">
-                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer" style="padding-top: 21px;">Pedidos Reorden</h6>
+                <div style="margin-left: 60px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Finalizados</h6>
                 </div>
-            </div>
-            <div class="uk-flex uk-flex-middle navbar-search-products-domicile" style="height: 40px;">
-                <div style="width: 90px !important; padding-left: 40px; padding-right: 10px;">
-                    <h6 class="uk-margin-remove font-weight-500 color-blue cursor-pointer uk-text-center font-size-12">Reorden Normal</h6>
+                <div class="button-trademark-domicile uk-flex uk-flex-middle uk-flex-center" style="margin-left: 40px; width: 135px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer" style="padding-top: 21px;">Calificados</h6>
                 </div>
-                <div style=" margin-left: 40px;">
-                    <h6 class="uk-margin-remove font-weight-500 color-blue cursor-pointer font-size-12">Reorden por proveedor</h6>
-                </div>
-                <div class="button-trademark-domicile uk-flex uk-flex-middle uk-flex-center" style="margin-left: 40px; ">
-                    <h6 class="uk-margin-remove font-weight-500 color-blue cursor-pointer font-size-12" style="padding-top: 21px;">Reorden por consumo</h6>
-                </div>
-                <div style=" margin-left: 40px;">
-                    <h6 class="uk-margin-remove font-weight-500 color-blue cursor-pointer font-size-12">Reorden Perfecta</h6>
+                <div style="margin-left: 40px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Cancelados</h6>
                 </div>
             </div>
             <div>
-                <div class="uk-flex uk-flex-middle" style="margin-top: 5px;">
+                <div class="uk-flex uk-flex-middle" style="margin-top: 5px; margin-left: 23px;">
                     <div>
-                        <div class="uk-flex uk-flex-middle navbar-search-products-re-domicile" style="margin-left: 40px;">
-                            <div>
-                                <h6 class="uk-margin-remove font-size-11 ">Seleccione tienda</h6>
-                                <div class="select-create-product-domicile " style="width: 120px;">
-                                    <select style="color: rgba(0, 0, 182, 0.459);">
-                                            <option>Sysware</option>
-                                            <option>opción 1</option>
-                                            <option>opción 2</option>
-                                            <option>opción 3</option>
-                                            <option>opción 4</option>
-                                        </select>
-                                    <div class="select_arrow-create-product-domicile">
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="margin-top: 17px; margin-left: 25px; margin-bottom: 2px;">
+                        <div class="uk-flex uk-flex-middle navbar-search-products-re-domicile" style="margin-left: 10px;">
+                            <div style="margin-top: 17px; margin-left: 35px; margin-bottom: 2px;">
                                 <h6 class="uk-margin-remove font-size-11">Fecha inicial</h6>
                                 <input class="input-register-user-domicile font-size-12" type="date" style="width: 120px;">
                             </div>
-                            <div>
-                                <h6 class="uk-margin-remove font-size-11 ">Seleccione hora de inicio</h6>
-                                <div class="select-create-product-domicile " style="width: 120px;">
-                                    <select style="color: rgba(0, 0, 182, 0.459);">
-                                            <option>1 A M</option>
-                                            <option>opción 1</option>
-                                            <option>opción 2</option>
-                                            <option>opción 3</option>
-                                            <option>opción 4</option>
-                                        </select>
-                                    <div class="select_arrow-create-product-domicile">
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="margin-top: 17px; margin-left: 25px; margin-bottom: 2px;">
+                            <div style="margin-top: 17px; margin-left: 15px; margin-bottom: 2px;">
                                 <h6 class="uk-margin-remove font-size-11">Fecha Final</h6>
                                 <input class="input-register-user-domicile font-size-12" type="date" style="width: 120px;">
                             </div>
                             <div>
-                                <h6 class="uk-margin-remove font-size-11 ">Seleccione hora de final</h6>
-                                <div class="select-create-product-domicile " style="width: 120px;">
-                                    <select style="color: rgba(0, 0, 182, 0.459);">
-                                            <option>1 A M</option>
-                                            <option>opción 1</option>
-                                            <option>opción 2</option>
-                                            <option>opción 3</option>
-                                            <option>opción 4</option>
-                                        </select>
-                                    <div class="select_arrow-create-product-domicile">
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="margin-left: 25px;">
-                                <button class="button-search-actualice-domicile">Reorden por consumo</button>
+                                <button class="button-search-actualice-domicile" style="margin-top: 20px; margin-left: 8px ; height: 20px; width: 120px; color: #65a6f7;">Consultar</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="box-shadow-down-domicile" style="height: 5px;"></div>
-                <div style="margin-left: 35px; margin-top: 20px; margin-bottom: 18px;">
-                    <div class="uk-flex uk-flex-middle">
-                        <div class="width-110">
-                            <h6 class="uk-margin-remove font-size-13 color-blue uk-text-bold ">Nº de productos</h6>
-                            <h6 class="uk-margin-remove font-size-12 color-blue">0</h6>
-                        </div>
-                        <div class="width-80" style="margin-left: 20px;">
-                            <h6 class="uk-margin-remove font-size-13 color-blue uk-text-bold uk-text-center">Subtotal</h6>
-                            <h6 class="uk-margin-remove font-size-12 color-blue uk-text-center">$0.00</h6>
-                        </div>
-                        <div class="width-80">
-                            <h6 class="uk-margin-remove font-size-13 color-blue uk-text-bold uk-text-center">IVA</h6>
-                            <h6 class="uk-margin-remove font-size-12 color-blue uk-text-center">$0.00</h6>
-                        </div>
-                        <div>
-                            <h6 class="uk-margin-remove font-size-13 color-blue uk-text-bold uk-text-center">TOTAL</h6>
-                            <h6 class="uk-margin-remove font-size-12 color-blue uk-text-center">$0.00</h6>
-                        </div>
-                        <div style="margin-left: 105px;">
-                            <button class="button-search-actualice-domicile" style="width: 107px; margin-right:8px;">Consultar</button>
-                        </div>
-                        <div style="margin-left: 32px;">
-                            <button class="button-search-actualice-domicile" style="width: 107px; margin-right:8px;">Solicitar pedido</button>
-                        </div>
-                        <div style="margin-left: 30px;">
-                            <button class="button-search-actualice-domicile" style="width: 107px; margin-right:8px;">Excel</button>
-                        </div>
+            </div>
+            <div class="box-shadow-down-domicile" style="height: 5px;"></div>
+            <div>
+                <div class="uk-flex uk-flex-middle uk-flex-between margin-navbar-list" style="padding-top: 10px;">
+                    <div class="width-120">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold">Fecha</h6>
+                    </div>
+                    <div class="width-90">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold" style="padding-left: 13px;">Documento</h6>
+                    </div>
+                    <div class="width-90">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold" style="padding-left: 25px;">Valor</h6>
+                    </div>
+                    <div class="width-200">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold uk-text-center">Cliente</h6>
+                    </div>
+                    <div class="width-90">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold" style="padding-left: 15px;">Dirección</h6>
+                    </div>
+                    <div class="width-90">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold" style="padding-left: 15px;">Teléfono</h6>
+                    </div>
+                    <div class="width-120">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold"></h6>
                     </div>
                 </div>
                 <div class="hr-tab"></div>
+                <button class="uk-flex uk-flex-between uk-flex-middle box-active-green">
+                        <div class="uk-flex uk-flex-between uk-flex-middle" style="width: 980px !important; height: 40px !important; padding-left: 13px;" uk-toggle="target: #procesados-con-novedad">
+                            <div class="width-120">
+                                <h6 class="uk-margin-remove font-size-12">2020-sep-25 13:00:41</h6>
+                            </div>
+                            <div class="width-90">
+                                <h6 class="uk-margin-remove font-size-12">PP-495</h6>
+                            </div>
+                            <div class="width-90">
+                                <h6 class="uk-margin-remove font-size-12">$30,300.000.00</h6>
+                            </div>
+                            <div class="width-200">
+                                <h6 class="uk-margin-remove font-size-12 uk-text-truncate" uk-tooltip="Cocacola Bedidas Energeticas de Colombia">Cocacola Bedidas Energeticas de Colombia</h6>
+                            </div>
+                            <div class="width-90">
+                                <h6 class="uk-margin-remove font-size-12">Calle 23 45-32</h6>
+                            </div>
+                            <div class="width-90">
+                                <h6 class="uk-margin-remove font-size-12">435345435345</h6>
+                            </div>
+                        </div>
+                       <div>
+                            <div class="width-110" style="margin-right: 43px;">
+                                <h6 class="uk-margin-remove font-size-12 button-order-active" uk-toggle="target: #modal-observations-con-novedad">Observaciones</h6>
+                            </div>
+                       </div>
+                        <div>
+                            <div style="margin-right: 10px;">
+                                <img style="width: 18px; cursor: pointer;" src="./data/Telefono.png" alt="">
+                            </div>
+                        </div>
+                </button>
+                <div id="modal-observations-con-novedad" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body modal-observations uk-margin-auto-vertical">
+                        <button class="uk-modal-close-default" style="width: 20px;" type="button" uk-close></button>
+                        <div class="box-observations-modal uk-flex uk-flex-middle">
+                            <h6 class="uk-margin-remove color-white font-weight-500" style="padding-left: 30px;">Observaciones</h6>
+                        </div>
+                        <h6 class="uk-margin-remove font-size-12" style="padding-left: 30px; padding-top: 10px;">Pedido Cliente creado desde APP TIENDA724</h6>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle uk-align-right uk-margin-remove-bottom subbox-active" style="margin-right: 110px;" id="procesados-con-novedad" hidden>
+                    <button class="button-search-actualice-domicile" style="height: 23px; color: #56a1fd;" uk-toggle="target: #modal-detalles-sin-novedad">Detalles</button>
+                    <div id="modal-detalles-sin-novedad" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body modal-detalles uk-margin-auto-vertical">
+                            <button class="uk-modal-close-default" style="width: 20px;" type="button" uk-close></button>
+                            <div class="box-observations-modal uk-flex uk-flex-middle" style="width: 700px !important;">
+                                <h6 class="uk-margin-remove color-white font-weight-500" style="padding-left: 30px;">Log de eventos del pedido</h6>
+                            </div>
+                            <div class="uk-flex uk-flex-middle" style="margin-left:55px; margin-top: 10px;">
+                                <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500">Documento</h6>
+                                <h6 class="uk-margin-remove font-size-12">PP-586</h6>
+                            </div>
+                            <div class="uk-flex uk-flex-middle uk-flex-between padding-vertical-10 padding-horizontal-70">
+                                <div>
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Pedido Cliente</h6>
+                                    <h6 class="uk-margin-remove font-size-12 uk-text-center height-40">PC - 56</h6>
+                                </div>
+                                <div>
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Cliente</h6>
+                                    <h6 class="uk-margin-remove font-size-12 width-90 uk-text-center height-40">Juan Carlos Botero Balcazar</h6>
+                                </div>
+                                <div>
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Dirección</h6>
+                                    <h6 class="uk-margin-remove font-size-12 uk-text-center height-40">Cra 8A Nº 45 - 08</h6>
+                                </div>
+                                <div>
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Telefono</h6>
+                                    <h6 class="uk-margin-remove font-size-12 uk-text-center height-40">3208403597</h6>
+                                </div>
+                            </div>
+                            <div class="hr-tab"></div>
+                            <div class="uk-flex uk-flex-middle uk-flex-between padding-vertical-10 padding-horizontal-30">
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Fecha Evento</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Notas</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Actor</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Tiempo</h6>
+                                </div>
+                            </div>
+                            <div class="hr-tab"></div>
+                            <div class="uk-flex uk-flex-middle uk-flex-between padding-vertical-10 padding-horizontal-30">
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">2020-11-23 09:27:49</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Facturado</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Proveedor</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">2949.9 mins</h6>
+                                </div>
+                            </div>
+                            <div class="hr-tab"></div>
+                            <div class="uk-flex uk-flex-middle uk-flex-between padding-vertical-10 padding-horizontal-30">
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">2020-11-23 09:27:49</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Procesado sin novedad</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Cliente</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Estado inicial</h6>
+                                </div>
+                            </div>
+                            <div class="hr-tab"></div>
+                            <div class="uk-flex uk-flex-middle uk-flex-between padding-vertical-10 padding-horizontal-30">
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">2020-11-23 09:27:49</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Procesado sin novedad</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Cliente</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Estado inicial</h6>
+                                </div>
+                            </div>
+                            <div class="hr-tab"></div>
+                            <div class="uk-flex uk-flex-middle uk-flex-between padding-vertical-10 padding-horizontal-30">
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">2020-11-23 09:27:49</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Procesado sin novedad</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Cliente</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Estado inicial</h6>
+                                </div>
+                            </div>
+                            <div class="hr-tab"></div>
+                            <div class="uk-flex uk-flex-middle uk-flex-around" style="margin-top: 30px;">
+                                <div class="uk-flex uk-flex-middle">
+                                    <h6 class="uk-margin-remove font-size-12 font-weight-500">Tiempo total:</h6>
+                                    <h6 class="uk-margin-remove font-size-12 font-weight-500 padding-horizontal-5">1.3 minutos</h6>
+                                </div>
+                                <div class="uk-flex uk-flex-middle">
+                                    <h6 class="uk-margin-remove font-size-12 font-weight-500">Tiempo total a entrega:</h6>
+                                    <h6 class="uk-margin-remove font-size-12 font-weight-500 padding-horizontal-5">0.9 minutos</h6>
+                                </div>
+                            </div>
+                            <div class="uk-flex uk-flex-center" style="margin-top: 30px;">
+                                <button class="button-search-actualice-domicile uk-modal-close" style="height: 23px; width: 110px;">Cerrar Ventana</button>
+                                <button class="button-search-actualice-domicile margin-horizontal-10" style="height: 23px; width: 110px; color: rgb(28, 134, 28);">Excel</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="button-search-actualice-domicile" style="height: 23px; color: red; margin-left: 20px;">PDF</button>
+                </div>
             </div>
         </div>
     </div>
-    <!-- pedidos reorden / reorden perfecta -->
-    <div style="display: none;">
+    <!-- Cancelados -->
+    <div style="display: none">
         <div class="main-container-domicile">
-            <div class="uk-flex uk-flex-middle navbar-search-products-domicile" style="z-index: 2000; position: relative;">
-                <div class="uk-flex uk-flex-center uk-flex-middle" style="padding-left: 40px; ">
-                    <h4 class="uk-margin-remove uk-text-bold">Pedidos</h4>
+            <div class="uk-flex uk-flex-middle navbar-search-products-domicile">
+                <div class="uk-flex uk-flex-center uk-flex-middle" style="padding-left: 20px; ">
+                    <h4 class="uk-margin-remove uk-text-bold">Domicilios</h4>
                 </div>
                 <div>
-                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer uk-text-center" style="padding-left: 100px;">Ver mis pedidos</h6>
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer uk-text-center" style="padding-left: 60px;">Registrar pedido</h6>
+                </div>
+                <div style="margin-left: 50px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Creados</h6>
+                </div>
+                <div style="margin-left: 70px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Procesados</h6>
+                </div>
+                <div style="margin-left: 40px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Facturados</h6>
                 </div>
                 <div style="margin-left: 60px;">
-                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Generar pedido</h6>
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">En Camino</h6>
                 </div>
                 <div style="margin-left: 60px;">
-                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Planilla</h6>
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Entregados</h6>
                 </div>
-                <div class="button-trademark-domicile uk-flex uk-flex-middle uk-flex-center" style="margin-left: 45px; width: 180px;">
-                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer" style="padding-top: 21px;">Pedidos Reorden</h6>
+                <div style="margin-left: 60px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Finalizados</h6>
                 </div>
-            </div>
-            <div class="uk-flex uk-flex-middle navbar-search-products-domicile" style="height: 40px;">
-                <div style="width: 90px !important; padding-left: 40px; padding-right: 10px;">
-                    <h6 class="uk-margin-remove font-weight-500 color-blue cursor-pointer uk-text-center font-size-12">Reorden Normal</h6>
+                <div style="margin-left: 60px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Calificados</h6>
                 </div>
-                <div style=" margin-left: 40px;">
-                    <h6 class="uk-margin-remove font-weight-500 color-blue cursor-pointer font-size-12">Reorden por proveedor</h6>
-                </div>
-                <div style=" margin-left: 40px;">
-                    <h6 class="uk-margin-remove font-weight-500 color-blue cursor-pointer font-size-12">Reorden por consumo</h6>
-                </div>
-                <div class="button-trademark-domicile uk-flex uk-flex-middle uk-flex-center" style="margin-left: 40px; ">
-                    <h6 class="uk-margin-remove font-weight-500 color-blue cursor-pointer font-size-12" style="padding-top: 21px;">Reorden Perfecta</h6>
+                <div class="button-pendients-domicile uk-flex uk-flex-middle uk-flex-center" style="margin-left: 60px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer" style="padding-top: 30px;">Cancelados</h6>
                 </div>
             </div>
             <div>
-                <div class="uk-flex uk-flex-middle" style="margin-top: 5px;">
+                <div class="uk-flex uk-flex-middle" style="margin-top: 5px; margin-left: 23px;">
                     <div>
-                        <div class="uk-flex uk-flex-middle navbar-search-products-re-domicile" style="margin-left: 40px;">
+                        <div class="uk-flex uk-flex-middle navbar-search-products-re-domicile" style="margin-left: 10px;">
+                            <div style="margin-top: 17px; margin-left: 35px; margin-bottom: 2px;">
+                                <h6 class="uk-margin-remove font-size-11">Fecha inicial</h6>
+                                <input class="input-register-user-domicile font-size-12" type="date" style="width: 120px;">
+                            </div>
+                            <div style="margin-top: 17px; margin-left: 15px; margin-bottom: 2px;">
+                                <h6 class="uk-margin-remove font-size-11">Fecha Final</h6>
+                                <input class="input-register-user-domicile font-size-12" type="date" style="width: 120px;">
+                            </div>
                             <div>
-                                <h6 class="uk-margin-remove font-size-11 ">Seleccione tienda</h6>
-                                <div class="select-create-product-domicile " style="width: 120px;">
-                                    <select style="color: rgba(0, 0, 182, 0.459);">
-                                            <option>Sysware</option>
-                                            <option>opción 1</option>
-                                            <option>opción 2</option>
-                                            <option>opción 3</option>
-                                            <option>opción 4</option>
-                                        </select>
-                                    <div class="select_arrow-create-product-domicile">
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="margin-left: 20px;">
-                                <h6 class="uk-margin-remove font-size-11 ">Seleccione Día</h6>
-                                <div class="select-create-product-domicile " style="width: 120px;">
-                                    <select style="color: rgba(0, 0, 182, 0.459);">
-                                            <option>Lunes</option>
-                                            <option>opción 1</option>
-                                            <option>opción 2</option>
-                                            <option>opción 3</option>
-                                            <option>opción 4</option>
-                                        </select>
-                                    <div class="select_arrow-create-product-domicile">
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="margin-left: 40px;">
-                                <button class="button-search-actualice-domicile" style="width: 150px;">Reorden Perfecta</button>
+                                <button class="button-search-actualice-domicile" style="margin-top: 20px; margin-left: 8px ; height: 20px; width: 120px; color: #65a6f7;">Consultar</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="box-shadow-down-domicile" style="height: 5px;"></div>
+            </div>
+            <div class="box-shadow-down-domicile" style="height: 5px;"></div>
+            <div>
+                <div class="uk-flex uk-flex-middle uk-flex-between margin-navbar-list" style="padding-top: 10px;">
+                    <div class="width-120">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold">Fecha</h6>
+                    </div>
+                    <div class="width-90">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold" style="padding-left: 13px;">Documento</h6>
+                    </div>
+                    <div class="width-90">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold" style="padding-left: 25px;">Valor</h6>
+                    </div>
+                    <div class="width-200">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold uk-text-center">Cliente</h6>
+                    </div>
+                    <div class="width-90">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold" style="padding-left: 15px;">Dirección</h6>
+                    </div>
+                    <div class="width-90">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold" style="padding-left: 15px;">Teléfono</h6>
+                    </div>
+                    <div class="width-120">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold"></h6>
+                    </div>
+                </div>
+                <div class="hr-tab"></div>
+                <button class="uk-flex uk-flex-between uk-flex-middle box-active-blue">
+                        <div class="uk-flex uk-flex-between uk-flex-middle" style="width: 980px !important; height: 40px !important; padding-left: 13px;" uk-toggle="target: #procesados-con-novedad">
+                            <div class="width-120">
+                                <h6 class="uk-margin-remove font-size-12">2020-sep-25 13:00:41</h6>
+                            </div>
+                            <div class="width-90">
+                                <h6 class="uk-margin-remove font-size-12">PP-495</h6>
+                            </div>
+                            <div class="width-90">
+                                <h6 class="uk-margin-remove font-size-12">$30,300.000.00</h6>
+                            </div>
+                            <div class="width-200">
+                                <h6 class="uk-margin-remove font-size-12 uk-text-truncate" uk-tooltip="Cocacola Bedidas Energeticas de Colombia">Cocacola Bedidas Energeticas de Colombia</h6>
+                            </div>
+                            <div class="width-90">
+                                <h6 class="uk-margin-remove font-size-12">Calle 23 45-32</h6>
+                            </div>
+                            <div class="width-90">
+                                <h6 class="uk-margin-remove font-size-12">435345435345</h6>
+                            </div>
+                        </div>
+                       <div>
+                            <div class="width-110" style="margin-right: 43px;">
+                                <h6 class="uk-margin-remove font-size-12 button-order-active" uk-toggle="target: #modal-observations-con-novedad">Observaciones</h6>
+                            </div>
+                       </div>
+                        <div>
+                            <div style="margin-right: 10px;">
+                                <img style="width: 18px; cursor: pointer;" src="./data/Telefono.png" alt="">
+                            </div>
+                        </div>
+                </button>
+                <div id="modal-observations-con-novedad" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body modal-observations uk-margin-auto-vertical">
+                        <button class="uk-modal-close-default" style="width: 20px;" type="button" uk-close></button>
+                        <div class="box-observations-modal uk-flex uk-flex-middle">
+                            <h6 class="uk-margin-remove color-white font-weight-500" style="padding-left: 30px;">Observaciones</h6>
+                        </div>
+                        <h6 class="uk-margin-remove font-size-12" style="padding-left: 30px; padding-top: 10px;">Pedido Cliente creado desde APP TIENDA724</h6>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle uk-align-right uk-margin-remove-bottom subbox-active" style="margin-right: 110px;" id="procesados-con-novedad" hidden>
+                    <button class="button-search-actualice-domicile" style="height: 23px; color: #56a1fd;" uk-toggle="target: #modal-detalles-sin-novedad">Detalles</button>
+                    <div id="modal-detalles-sin-novedad" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body modal-detalles uk-margin-auto-vertical">
+                            <button class="uk-modal-close-default" style="width: 20px;" type="button" uk-close></button>
+                            <div class="box-observations-modal uk-flex uk-flex-middle" style="width: 700px !important;">
+                                <h6 class="uk-margin-remove color-white font-weight-500" style="padding-left: 30px;">Log de eventos del pedido</h6>
+                            </div>
+                            <div class="uk-flex uk-flex-middle" style="margin-left:55px; margin-top: 10px;">
+                                <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500">Documento</h6>
+                                <h6 class="uk-margin-remove font-size-12">PP-586</h6>
+                            </div>
+                            <div class="uk-flex uk-flex-middle uk-flex-between padding-vertical-10 padding-horizontal-70">
+                                <div>
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Pedido Cliente</h6>
+                                    <h6 class="uk-margin-remove font-size-12 uk-text-center height-40">PC - 56</h6>
+                                </div>
+                                <div>
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Cliente</h6>
+                                    <h6 class="uk-margin-remove font-size-12 width-90 uk-text-center height-40">Juan Carlos Botero Balcazar</h6>
+                                </div>
+                                <div>
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Dirección</h6>
+                                    <h6 class="uk-margin-remove font-size-12 uk-text-center height-40">Cra 8A Nº 45 - 08</h6>
+                                </div>
+                                <div>
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Telefono</h6>
+                                    <h6 class="uk-margin-remove font-size-12 uk-text-center height-40">3208403597</h6>
+                                </div>
+                            </div>
+                            <div class="hr-tab"></div>
+                            <div class="uk-flex uk-flex-middle uk-flex-between padding-vertical-10 padding-horizontal-30">
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Fecha Evento</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Notas</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Actor</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-12 color-blue font-weight-500 uk-text-center">Tiempo</h6>
+                                </div>
+                            </div>
+                            <div class="hr-tab"></div>
+                            <div class="uk-flex uk-flex-middle uk-flex-between padding-vertical-10 padding-horizontal-30">
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">2020-11-23 09:27:49</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Facturado</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Proveedor</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">2949.9 mins</h6>
+                                </div>
+                            </div>
+                            <div class="hr-tab"></div>
+                            <div class="uk-flex uk-flex-middle uk-flex-between padding-vertical-10 padding-horizontal-30">
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">2020-11-23 09:27:49</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Procesado sin novedad</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Cliente</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Estado inicial</h6>
+                                </div>
+                            </div>
+                            <div class="hr-tab"></div>
+                            <div class="uk-flex uk-flex-middle uk-flex-between padding-vertical-10 padding-horizontal-30">
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">2020-11-23 09:27:49</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Procesado sin novedad</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Cliente</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Estado inicial</h6>
+                                </div>
+                            </div>
+                            <div class="hr-tab"></div>
+                            <div class="uk-flex uk-flex-middle uk-flex-between padding-vertical-10 padding-horizontal-30">
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">2020-11-23 09:27:49</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Procesado sin novedad</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Cliente</h6>
+                                </div>
+                                <div class="width-150">
+                                    <h6 class="uk-margin-remove font-size-11 uk-text-center">Estado inicial</h6>
+                                </div>
+                            </div>
+                            <div class="hr-tab"></div>
+                            <div class="uk-flex uk-flex-middle uk-flex-around" style="margin-top: 30px;">
+                                <div class="uk-flex uk-flex-middle">
+                                    <h6 class="uk-margin-remove font-size-12 font-weight-500">Tiempo total:</h6>
+                                    <h6 class="uk-margin-remove font-size-12 font-weight-500 padding-horizontal-5">1.3 minutos</h6>
+                                </div>
+                                <div class="uk-flex uk-flex-middle">
+                                    <h6 class="uk-margin-remove font-size-12 font-weight-500">Tiempo total a entrega:</h6>
+                                    <h6 class="uk-margin-remove font-size-12 font-weight-500 padding-horizontal-5">0.9 minutos</h6>
+                                </div>
+                            </div>
+                            <div class="uk-flex uk-flex-center" style="margin-top: 30px;">
+                                <button class="button-search-actualice-domicile uk-modal-close" style="height: 23px; width: 110px;">Cerrar Ventana</button>
+                                <button class="button-search-actualice-domicile margin-horizontal-10" style="height: 23px; width: 110px; color: rgb(28, 134, 28);">Excel</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="button-search-actualice-domicile" style="height: 23px; color: red; margin-left: 20px;">PDF</button>
+                </div>
             </div>
         </div>
     </div>
